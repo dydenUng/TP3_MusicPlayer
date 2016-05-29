@@ -1,0 +1,16 @@
+
+#maskLayer
+{
+	-fx-background-color : radial-gradient(center 50% 50%, radius 50%, 
+		transparent, transparent, transparent, transparent, transparent, transparent, -fx-background);	
+}
+
+
+#radialPane
+{
+	-fx-background-color : radial-gradient(center 50% 50%, radius 50%, blueviolet, darkorange, greenyellow , deeppink , skyblue , -fx-background, -fx-background);	
+}
+
+
+
+

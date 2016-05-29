@@ -1,0 +1,26 @@
+
+#areaMetadata
+{
+	-fx-font-weight : normal;
+	-fx-text-fill : gray; 
+}
+
+/* #areaMetadata .content
+{
+	-fx-background-color : #e7e7e7;
+}*/
+
+#hboxProgres
+{
+	-fx-spacing:0px;
+	-fx-alignment:top-center;
+}
+
+#lblFichier
+{
+	-fx-text-fill:gold;
+}
+
+
+
+

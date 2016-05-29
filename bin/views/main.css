@@ -1,0 +1,44 @@
+
+.MainView 
+{
+	-fx-base: darkviolet;
+	-fx-font-weight:bold;
+	-fx-alignment:center;
+	-fx-padding:20px;	
+	-fx-control-inner-background: derive(-fx-base,80%);
+	-fx-accent: palegreen;
+}
+
+.Restreint
+{
+	-fx-padding:0px;	
+}
+
+.MainBox
+{
+	-fx-spacing:20px;
+	-fx-alignment:center;
+}
+
+.SubBox
+{	
+	-fx-spacing:5px;
+	-fx-alignment:center;
+}
+
+.progress-bar > .track {
+      -fx-background-color: 
+          -fx-shadow-highlight-color,
+          linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+          linear-gradient(to bottom, 
+            derive(black, -7%),
+            derive(black, 0%),
+            derive(black, -3%),
+            derive(black, -9%)
+          );
+}
+
+
+
+
+
